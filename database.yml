@@ -1,0 +1,10 @@
+users:
+  lara:
+    username: lara
+    articleIds: []
+    commentIds: []
+comments: {}
+nextCommentId: 1
+articles:
+  '1': null
+nextArticleId: 2
