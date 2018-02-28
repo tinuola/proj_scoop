@@ -11,3 +11,14 @@ The Scoop allows users to:
 - Create, edit, and delete comments on articles
 - Upvote and downvote comments
 - View all of a user's articles and comments
+
+### Installation
+
+_Requirements: git, node, and npm_
+
+In Terminal:
+- git clone [https://github.com/tinuola/scoop-codecademy.git](https://github.com/tinuola/scoop-codecademy.git)
+- cd scoop-codecademy
+- node server.js
+
+Open index.html in web browser
