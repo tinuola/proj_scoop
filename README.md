@@ -22,3 +22,7 @@ In Terminal:
 - node server.js
 
 Open index.html in web browser
+
+Login with a random username
+
+Submit, edit, vote on, delete articles/comments, etc, etc...
