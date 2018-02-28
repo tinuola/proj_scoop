@@ -63,7 +63,7 @@ function loadDatabase() {
 //Save to database
 function saveDatabase() {
   var yaml = require('write-yaml');
-  yaml('.database.yml', database, function(err) {
+  yaml('database.yml', database, function(err) {
     if(err){
       console.log(err);
     }

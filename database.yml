@@ -1,10 +1,42 @@
 users:
-  lara:
-    username: lara
-    articleIds: []
-    commentIds: []
-comments: {}
-nextCommentId: 1
+  Tobi:
+    username: Tobi
+    articleIds:
+      - 1
+      - 2
+    commentIds:
+      - 1
 articles:
-  '1': null
-nextArticleId: 2
+  '1':
+    id: 1
+    title: What the Oprah Boomlet Means for Democrats
+    url: >-
+      https://www.theatlantic.com/politics/archive/2018/01/what-the-oprah-boomlet-says-about-the-democratic-party/549950/
+    username: Tobi
+    commentIds: []
+    upvotedBy:
+      - Tobi
+    downvotedBy: []
+  '2':
+    id: 2
+    title: Mountain Gorillas at Home
+    url: >-
+      https://www.theatlantic.com/photo/2018/01/mountain-gorillas-at-home/549962/
+    username: Tobi
+    commentIds:
+      - 1
+    upvotedBy:
+      - Tobi
+    downvotedBy: []
+    comments: []
+nextArticleId: 3
+comments:
+  '1':
+    id: 1
+    body: So cool to see that their population is back on the rise.
+    username: Tobi
+    articleId: 2
+    upvotedBy:
+      - Tobi
+    downvotedBy: []
+nextCommentId: 2
